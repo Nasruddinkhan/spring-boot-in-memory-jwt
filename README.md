@@ -1,7 +1,7 @@
 # spring-boot-in-memory-jwt
 Spring boot 3 with java 17 and spring security with jwt without db.
 
-1. clone the project 
+1. clone the project `git clone https://github.com/Nasruddinkhan/spring-boot-in-memory-jwt`
 2. open the swagger url `http://localhost:8111/swagger-ui/index.html`. curl command for login `curl -X 'POST' \
    'http://localhost:8111/auth/v1/login' \
    -H 'accept: */*' \

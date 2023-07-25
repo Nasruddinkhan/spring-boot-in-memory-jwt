@@ -1,5 +1,4 @@
-# spring-boot-in-memory-jwt
-Spring boot 3 with java 17 and spring security with jwt without db.
+# Spring Boot 3 with Java 17 and implementing Spring Security with JWT authentication, all without the need for a database.
 
 1. clone the project `git clone https://github.com/Nasruddinkhan/spring-boot-in-memory-jwt`
 2. run open the swagger url `http://localhost:8111/swagger-ui/index.html`. login curl command for postman `curl -X 'POST' \

@@ -15,8 +15,8 @@ import java.util.concurrent.ConcurrentHashMap;
 public class InMemoryUserDetailsService implements UserDetailsService {
     public static final String USER = "user";
     public static final String ADMIN = "admin";
-    public static final String USER_ROLE = "USER_ROLE";
-    public static final String ADMIN_ROLE = "ADMIN_ROLE";
+    public static final String USER_ROLE = "USER";
+    public static final String ADMIN_ROLE = "ADMIN";
 
     private final Map<String, User> users = new ConcurrentHashMap<>();
 
